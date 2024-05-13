@@ -4,7 +4,6 @@ import "./LyricResult.css"; // Styling for the LyricResult component
 interface LyricResultProps {
   lyric: string;
   distance: number;
-  lyric_id: string;
   song_name: string;
   song_url: string;
 }
