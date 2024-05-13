@@ -166,7 +166,6 @@ function App() {
               key={index}
               lyric={lyric.lyric.text}
               distance={lyric.distance}
-              lyric_id={lyric.lyric_id}
               song_name={lyric.lyric.song_name}
               song_url={lyric.lyric.song_url}
             />

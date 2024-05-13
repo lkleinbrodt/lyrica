@@ -12,7 +12,6 @@ interface LyricResultProps {
 const LyricResult: React.FC<LyricResultProps> = ({
   lyric,
   distance,
-  lyric_id,
   song_name,
   song_url,
 }) => {
